@@ -1,17 +1,10 @@
-"use client";
-export default function login() {
+import Image from "next/image";
 
-    return (
-        <div className="auth-page">
-            <form className="auth-card">
-                <h2> ติดต่อเรา </h2>
-                 <h2>000-000-0000 </h2>
-                
-            
-                
-            
-                <button>โทรเลย</button>
-            </form>
-        </div>
-    );
+export default function Home() {
+  return (
+    <div>
+        <h2>ยินดีต้อนรับเข้าสู่  ของผมครับ</h2>
+        <p>โดย นายวุฒิภูมิ วุฒิ </p>
+    </div>
+  );
 }
